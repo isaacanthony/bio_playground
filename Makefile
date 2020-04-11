@@ -1,18 +1,20 @@
+build:
+	@docker build -t dna_playground .
+
 start:
 	@docker run \
-		--name jupyter \
+		--name dna_playground \
 		-d \
-		-e JUPYTER_ENABLE_LAB=yes \
 		-p 8888:8888 \
 		-v $(PWD)/data:/home/jovyan/data \
 		-v $(PWD)/notebooks:/home/jovyan/notebooks \
-		jupyter/scipy-notebook
+		dna_playground
 	@sleep 1
 	@make -s jupyter-list
 
 stop:
-	@docker stop jupyter
-	@docker rm jupyter
+	@docker stop dna_playground
+	@docker rm dna_playground
 
 jupyter-list:
-	@docker exec -it jupyter jupyter notebook list
+	@docker exec -it dna_playground jupyter notebook list
