@@ -6,10 +6,8 @@
 * `make stop`
 
 ## Resources
-* Nextstrain [website](https://nextstrain.org)
-* Nextstrain [GitHub](https://github.com/nextstrain)
-* Biopython [website](https://biopython.org)
-* Biopython [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
+* Biopython: [website](https://biopython.org), [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
+* Nextstrain: [website](https://nextstrain.org), [github](https://github.com/nextstrain)
 
 ## Data Sources
 * Genbank COVID-19 [.fasta](https://raw.githubusercontent.com/nextstrain/ncov/master/example_data/sequences.fasta)
