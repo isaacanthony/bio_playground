@@ -5,6 +5,8 @@ ENV JUPYTER_ENABLE_LAB yes
 # Install os dependencies
 USER root
 RUN apt-get update && apt-get install -y \
+  iqtree \
+  mafft \
   muscle
 
 # Install python dependencies
