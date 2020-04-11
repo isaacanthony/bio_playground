@@ -12,4 +12,4 @@
 * Biopython [tutorial](http://biopython.org/DIST/docs/tutorial/Tutorial.html)
 
 ## Data Sources
-* Genbank COVID-19 Fasta (samples)[https://raw.githubusercontent.com/nextstrain/ncov/master/example_data/sequences.fasta]
+* Genbank COVID-19 [.fasta](https://raw.githubusercontent.com/nextstrain/ncov/master/example_data/sequences.fasta)
