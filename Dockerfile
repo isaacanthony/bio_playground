@@ -13,3 +13,7 @@ RUN apt-get update && apt-get install -y \
 USER $NB_UID
 COPY requirements.txt requirements.txt
 RUN pip install -r requirements.txt
+
+# Set up package
+COPY . .
+RUN pip install -e .

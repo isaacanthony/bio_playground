@@ -6,8 +6,7 @@ start:
 		--name dna_playground \
 		-d \
 		-p 8888:8888 \
-		-v $(PWD)/data:/home/jovyan/data \
-		-v $(PWD)/notebooks:/home/jovyan/notebooks \
+		-v $(PWD):/home/jovyan \
 		dna_playground
 	@sleep 1
 	@make -s jupyter-list
@@ -18,3 +17,9 @@ stop:
 
 jupyter-list:
 	@docker exec -it dna_playground jupyter notebook list
+
+clear:
+	@find data | grep '\.' | grep -v 'gitkeep' | xargs rm -rf
+
+run:
+	@docker exec -it dna_playground python3 src/main.py $(pipeline)

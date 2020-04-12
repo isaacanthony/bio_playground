@@ -1,6 +1,12 @@
+__pycache__
+
+.cache
+.config
 .ipynb_checkpoints
-*.csv
-*.fasta
-*.log
-*.nwk
-*.tsv
+.ipython
+.jupyter
+.local
+.wget-hsts
+
+data/**/*
+!data/**/.gitkeep
