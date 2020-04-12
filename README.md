@@ -10,4 +10,4 @@
 * Nextstrain: [website](https://nextstrain.org), [github](https://github.com/nextstrain)
 
 ## Data Sources
-* Genbank COVID-19 [.fasta](https://raw.githubusercontent.com/nextstrain/ncov/master/example_data/sequences.fasta)
+* Nextstrain COVID-19 analysis [github](https://github.com/nextstrain/ncov), [sequences.fasta](https://raw.githubusercontent.com/nextstrain/ncov/master/example_data/sequences.fasta), [metadata.tsv](https://raw.githubusercontent.com/nextstrain/ncov/master/data/metadata.tsv)
